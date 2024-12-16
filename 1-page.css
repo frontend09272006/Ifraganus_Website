@@ -1,0 +1,118 @@
+.IFRAGANUS-USTUN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    /* background: linear-gradient(to left, blue ,yellow, blue); */
+    background-image: url(img/1-sahifa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.KIRISH{
+    /* background: linear-gradient(#533e0d, yellow, yellow, #533e0d); */
+    background-color: #fdd719;
+    width: 500px;
+    height: 100px;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* animation-name: kirish;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes kirish {
+    25%{
+        top: 0;
+        left: 0;
+        background-color: yellow;
+        opacity: 0.6;
+    }
+    50%{
+        top: 0;
+        left: 0;
+        background-color: lime;
+        opacity: 0.6;
+    }
+    75%{
+        top: 0;
+        left: 0;
+        background-color: orange;
+        opacity: 0.6;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: orangered;
+        opacity: 0.6;
+    }
+} */
+/* BIZDA O'QITILADIGAN KURSLAR backend */
+.IFARGANUS{
+    background: none;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 250px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    text-decoration: none;
+    position: relative;
+    /* background-color: #DCCa87; */
+    /* background-color: chartreuse; */
+    /* background-color: cornflowerblue; */
+    border-radius: 10px;
+    background-color:darkslategray; 
+    color: white;
+    z-index: 1;
+}
+.IFARGANUS:hover{
+    color:whitesmoke;
+    
+}
+.IFARGANUS::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, blue, orangered, blue);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    border-radius: 10px;
+    /* transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7); */
+}
+.IFARGANUS::before{
+    transform: scalex(0);
+}
+.IFARGANUS:hover::before{
+    transform: scaleY(1);
+}
+
+
+.ifraganus-bg{
+    background-image: url(img/ifraganus-imgg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    min-height: 200px;
+
+}
+.ifraganus-bg2{
+    background-image: url(img/kids-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    border-radius: 20px;
+
+}
+

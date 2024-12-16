@@ -1,0 +1,465 @@
+body{
+    background-color: black;
+}
+/* navbar  */
+.navbar-dark{
+    background-color: yellow;
+}
+.offcanvas-top{
+    min-height: 450px;
+    background-color:#6c5e41;
+    transition: 0.7s;
+
+}
+.offcanvas-top:hover{
+    background-color: goldenrod;
+}
+.navbar{
+    /* background-color:yellow; */
+    /* background: linear-gradient(goldenrod, gold, yellow, rgba(0, 0, 0, 0.817)); */
+    background-color: yellow;
+    min-height: 100px;
+    transition: 1s;
+    opacity: 0.98;
+    
+    /* box-shadow: rgb(10px, 10px, 10px, 30px); */
+    /* filter: contrast(10px); */
+    /* filter: blur(1px); */
+    /* filter: drop-shadow(30px); */
+}
+.navbar:hover{
+    background-color: gold; 
+    /* border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+
+
+}
+.offcanvas-bg{
+    font-size: 20px;
+
+}
+.offcanvas-bg:hover{
+    border-bottom: 2px solid black;
+    color: white;
+}
+.tel-ustun{
+    border: 2px solid gray;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center; align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+@media (max-width:768px){
+    .tel-ustun{
+        max-width: 60px;
+        min-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+@media (max-width:420px) {
+}
+.tel-ustun a:hover{
+    border-bottom: 2px solid gray;
+}
+.online-talim:hover{
+    border-bottom: 2px solid gray;
+}
+.online-talim{
+    font-size: 20px;
+}
+.kids{
+    font-size: 20px;
+    border: 2px solid gray;
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #1E1E20;
+    transition: 0.3s;
+}
+.kids:hover{
+    border: 2px solid black;
+    background-color:yellow;
+
+}
+/* navbar end */
+
+/* IFRAGANUS O'QUV MARKAZI HAQIDA */
+.row-bir{
+    margin-top: 220px;
+}
+.sarlavha{
+    margin-top: 70px;
+    
+}
+.row1{
+    margin-top: 60px;
+}
+.col-3-bg{
+    /* background: linear-gradient(to left, yellow, red, yellow); */
+    /* background-color: gold; */
+     /* border: 2px solid lime; */
+    border-radius: 20px;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px;
+    /* background-image: url(img/1-page-img.jpg); */
+    background-color: #1F2631;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.7s;
+    /* background: linear-gradient(to right,  orange, blue,orange); */
+
+}
+.col-3-bg:hover{
+    /* transform: rotate(20deg); */
+    background-color: gray;
+    display: flex;
+    /* perspective: 50px; */
+
+}
+.radius1{
+    border-radius: 50%;
+    border: 2px solid lime;
+    background-color: lime;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* IFRAGANUS O'QUV MARKAZI HAQIDA END */
+
+/* BEPUL KONSULTATSIYA */
+.row-1{
+    margin-top: 150px;
+}
+.col-6-bg{
+    /* background: linear-gradient(to right,  blue, lime, blue ); */
+    background-image: url(img/bosh-sahifa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.col-6-bg h1{
+    color: black;
+}
+.col-6-bg p{
+    color: lightgoldenrodyellow;
+}
+.col-6-bg h1{
+    font-size: 38px;
+}
+.col-6-bg p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.col-4-bg{
+    /* background: linear-gradient(to right,  blue, lime, blue ); */ 
+    background-image: url(img/boshsahifa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    /* 533e0d */
+
+}
+.col-4-bg p{
+    font-size: 20px;
+}
+.input-razmer{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    opacity: 0.7;
+    color: #000;
+
+}
+.input-razmer2{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+.button-razmer{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    background-color: #DCCa87;
+    margin-top: 20px;
+    color: black;
+}
+.button-razmer:hover{
+    background-color: #1E1E20;
+    color: white;
+}
+ /* BEPUL KONSULTATSIYA END */
+
+ /* NIMA UCHUN IFRAGANUS O'QUV MARKAZINI TANLASH KERAK */
+ .sarlavha2{
+    /* font-size: 60px; */
+    color: #1E1E20;
+    margin-top: 100px;
+ }
+ .col-5-bg{
+    /* background-color: #6c5e41; */
+    border: 2px solid yellow;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 2s;
+    /* background: linear-gradient(to right, red, yellow, red); */
+    /* background-color: lime; */
+
+ }
+ .col-5-bg:hover{
+    border-radius: 20px;
+    background-image: url(img/sifatli-talim.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .col-5-bg2{
+    border: 2px solid yellow;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 2s;
+ }
+ .col-5-bg2:hover{
+    border-radius: 20px;
+    background-image: url(img/ish\ joyi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .col-5-bg3{
+    border: 2px solid yellow;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 2s;
+ }
+ .col-5-bg3:hover{
+    border-radius: 20px;
+    background-image: url(img/musobaqa1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .col-5-bg4{
+    border: 2px solid yellow;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 2s;
+ }
+ .col-5-bg4:hover{
+    border-radius: 20px;
+    background-image: url(img/sertifikat2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .radius{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: lime;
+ }
+ .sifatli-talim{
+    font-size: 20px;
+ }
+.row-2{
+    margin-top: 60px;
+}
+ /* NIMA UCHUN IFRAGANUS O'QUV MARKAZINI TANLASH KERAK END */
+
+.video{
+    background-color: white;
+}
+
+/* BIZDA O'QITILADIGAN KURSLAR frontend */
+.col3-bg2{
+    background: none;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    /* background-color: #DCCa87; */
+    /* background-color: chartreuse; */
+    background-color: #1F2631;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    z-index: 1;
+}
+.col3-bg2:hover{
+    color: #000;
+}
+.col3-bg2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to right,  lime, blue, lime ); */
+    /* background-color: blue; */
+    background-image: url(img/html-1.svg);
+    background-position: center;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    border-radius: 10px;
+    /* transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7); */
+}
+.col3-bg::before{
+    transform: scaleY(0);
+}
+.col3-bg:hover::before{
+    transform: scaleY(1);
+}
+
+/* BIZDA O'QITILADIGAN KURSLAR END frontend */
+
+/* BIZDA O'QITILADIGAN KURSLAR backend */
+.col3-bg3{
+    background: none;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    /* background-color: #DCCa87; */
+    /* background-color: chartreuse; */
+    
+    border: 2px solid yellow;
+    background-color: olivedrab;
+    border-radius: 10px;
+    color: white;
+    z-index: 1;
+
+
+}
+.col3-bg3:hover{
+    color: #000;
+}
+.col3-bg3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, red, yellow, red);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    border-radius: 10px;
+    /* transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7); */
+}
+.col3-bg1::before{
+    transform: scalex(0);
+}
+.col3-bg1:hover::before{
+    transform: scaleY(1);
+}
+
+/* BIZDA O'QITILADIGAN backend KURSLAR END */
+
+/* ifraganus reacher  */
+.card-bg{
+    background-color: #1F2631;
+    transition: 1s;
+}
+.card-bg:hover{
+    background-color: #1F2900;
+    /* background-color: #1F2850; */
+    /* background-color: #1F2800; */
+    /* background-color: #1F2750; */
+    /* background-color: #1F2700; */
+
+
+}
+.card-img-top{
+    transition: 1s;
+}
+.card-img-top:hover{
+    opacity: 0.8;
+    filter: contrast(2);
+    
+}
+/* ifraganus reacher end  */
+
+
+/* IFRAGANUS IT NI SIZGA BERADIGAN IMKONIYATLARI */
+.col-3-img{
+    border-radius: 20px;
+    border: 2px solid gray;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    transition: 2s;
+
+}
+/* IFRAGANUS IT NI SIZGA BERADIGAN IMKONIYATLARI END */
+
+/* MAP  */
+iframe{
+    width: 100%;
+    min-height: 500px;
+    border: 15px solid gray;
+}
+.map{
+    /* filter: invert(100%); */
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 10px solid red;
+}
+/* MAP END  */
+
+/* FOOTER  */
+.footer{
+    width: 100%;
+    min-height: 220px;
+    background-color:gray;
+    margin-top: 150px;
+    transition: 2s;
+
+}
+.footer:hover{
+    background-color: #1F2631;
+}
+.footer__a{
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.footer__a a:hover{
+    border-bottom: 2px solid white;
+    color: orangered;
+
+}
+/* FOOTER END  */
+
+
